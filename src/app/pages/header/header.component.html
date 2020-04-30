@@ -5,8 +5,8 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link active">Recipes</a>
-            <a href="#" class="nav-item nav-link">Shopping List</a>
+            <a href="#" class="nav-item nav-link active" (click)="onSelect('recipe')">Recipes</a>
+            <a href="#" class="nav-item nav-link" (click)="onSelect('shopping-list')">Shopping List</a>
         </div>
         <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
